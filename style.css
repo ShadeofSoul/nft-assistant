@@ -285,7 +285,7 @@ FOR BURGER MENU
   .menu li {
     opacity: 0;
     padding-right: 0;
-    padding-bottom: 50px;
+    padding-bottom: 3.5vh;
   }
   .burger {
     background-color: #ec1487;
