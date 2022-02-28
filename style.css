@@ -273,7 +273,7 @@ FOR BURGER MENU
     position: absolute;
     background-color: rgba(0, 0, 0, 0.7);
     width: 40vw;
-    height: 40vh;
+    height: fit-content;
     top: 0;
     left: 0;
     display: flex;
@@ -286,7 +286,7 @@ FOR BURGER MENU
   }
 
   .menu li:first-child {
-    padding-top: 13vh;
+    padding-top: 13.5vh;
   }
 
   .menu li {
