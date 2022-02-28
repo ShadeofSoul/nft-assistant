@@ -284,6 +284,11 @@ FOR BURGER MENU
     transition: transform 0.5s ease-in;
     z-index: 1;
   }
+
+  .menu li:first-child {
+    padding-top: 6vh;
+  }
+
   .menu li {
     opacity: 0;
     padding-right: 0;
