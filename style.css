@@ -26,6 +26,7 @@ body {
 }
 li {
   list-style-type: none;
+  font-size: 1.3rem;
   animation: nav-list 2s ease-out 1;
 }
 
@@ -67,12 +68,13 @@ a:hover {
 }
 
 h1 {
-  font-weight: 300;
-  font-size: 5rem;
+  font-weight: 400;
+  font-size: 5.3rem;
   line-height: 112px;
   font-family: "Inter", sans-serif;
   font-family: "Roboto", sans-serif;
   color: #ffffff;
+  margin: 20vh 0 5vh 0;
 }
 
 .char {
@@ -142,6 +144,7 @@ h2 {
   font-size: 3.2rem;
   line-height: 67px;
   color: rgba(255, 255, 255, 0.5);
+  margin: 15vh 0 0 0;
   animation: typing 3s forwards;
 }
 h3 {
@@ -153,7 +156,7 @@ h3 {
   grid-template-columns: 1.4fr 0.6fr;
   column-gap: 200px; */
   color: #ffffff;
-  height: 80vh;
+  height: 90vh;
   margin-bottom: 200px;
 }
 
@@ -161,7 +164,7 @@ h3 {
   font-family: Roboto;
   font-style: normal;
   font-weight: 300;
-  font-size: 1.8rem;
+  font-size: 1.9rem;
   line-height: 40px;
   text-align: justify;
   letter-spacing: 0.01em;
@@ -183,7 +186,9 @@ h3 {
   grid-template-columns: 0.15fr 1.85fr;
   align-items: flex-start;
   justify-content: flex-start;
+  margin: 15px 0;
 }
+
 .solution-text svg {
   margin-top: 7px;
 }
