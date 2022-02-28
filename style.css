@@ -286,13 +286,13 @@ FOR BURGER MENU
   }
 
   .menu li:first-child {
-    padding-top: 10vh;
+    padding-top: 13vh;
   }
 
   .menu li {
     opacity: 0;
     padding-right: 0;
-    padding-bottom: 3.5vh;
+    padding-bottom: 3vh;
   }
   .burger {
     background-color: #ec1487;
