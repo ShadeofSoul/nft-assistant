@@ -276,8 +276,10 @@ FOR BURGER MENU
     height: 40vh;
     top: 0;
     left: 0;
+    display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: end;
     transform: translateX(-100%);
     transition: transform 0.5s ease-in;
     z-index: 1;
