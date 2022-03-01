@@ -1,6 +1,6 @@
 var text = document.getElementById("nft");
 var newDom = "";
-var animationDelay = 6;
+var animationDelay = 4;
 
 for (let i = 0; i < text.innerText.length; i++) {
   newDom +=

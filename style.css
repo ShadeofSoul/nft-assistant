@@ -140,7 +140,7 @@ h1 {
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
-  animation: typing 4s forwards;
+  animation: typing 2s forwards;
   opacity: 0;
   margin-left: -300px;
 }
@@ -164,7 +164,7 @@ h2 {
   line-height: 67px;
   color: rgba(255, 255, 255, 0.5);
   margin: 15vh 0 0 0;
-  animation: typing 3s forwards;
+  animation: typing 2s forwards;
 }
 h3 {
   font-size: 2.8rem;
@@ -320,7 +320,6 @@ FOR BURGER MENU
 
   .char {
     font-size: 3.5rem;
-    line-height: ;
   }
   .menu {
     position: absolute;
