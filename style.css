@@ -76,6 +76,11 @@ a:hover {
 
 .main {
   height: 90vh;
+  align-items: center;
+}
+.main-text {
+  margin: 20vh 0 5vh 0;
+  display: flex;
 }
 
 h1 {
@@ -85,7 +90,10 @@ h1 {
   font-family: "Inter", sans-serif;
   font-family: "Roboto", sans-serif;
   color: #ffffff;
-  margin: 20vh 0 5vh 0;
+  margin-left: 30px;
+}
+
+#assistant {
 }
 
 .char {
@@ -240,7 +248,7 @@ FOR BURGER MENU
 }
 
 .line {
-  width: 30px;
+  width: 28px;
   height: 5px;
   margin: 2px;
   background-color: #310f78;
@@ -255,7 +263,49 @@ FOR BURGER MENU
     padding: 30px;
   }
   .solution-text svg {
-    width: 10px !important;
+    width: 8px !important;
+  }
+  h1 {
+    line-height: 35px;
+    margin-left: 0px;
+  }
+  .main h2 {
+    font-size: 3rem;
+    background: -moz-linear-gradient(
+      left,
+      rgb(0, 240, 255) 0%,
+      rgb(0, 240, 255) 62%,
+      rgba(0, 240, 255, 0.7) 68%,
+      rgba(0, 240, 255, 0) 100%
+    );
+    background: -webkit-linear-gradient(
+      left,
+      rgba(0, 240, 255, 0.7) 0%,
+      rgba(0, 240, 255, 1) 62%,
+      rgba(0, 240, 255, 0.7) 68%,
+      rgba(0, 240, 255, 0) 100%
+    );
+    background: linear-gradient(
+      to right,
+      rgba(0, 240, 255, 0.6) 0%,
+      rgba(0, 240, 255, 0.5) 62%,
+      rgba(0, 240, 255, 0.5) 68%,
+      rgba(0, 240, 255, 0.3) 100%
+    );
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#007db9e8', GradientType=0 );
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    opacity: 0.8;
+  }
+  .typed-out {
+    font-family: Roboto;
+    color: #ffffff;
+    font-weight: 100px;
+  }
+
+  .main-text {
+    display: block;
   }
   .section {
     height: 80vh;
@@ -267,7 +317,7 @@ FOR BURGER MENU
   }
 
   .char {
-    font-size: 3rem;
+    font-size: 3.5rem;
   }
   .menu {
     position: absolute;
@@ -320,11 +370,26 @@ FOR BURGER MENU
   }
   .my-navbar .button {
     width: 40%;
-    padding: 15px;
+    padding: 13px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   }
   .section img {
     display: none;
+  }
+}
+
+@media (max-width: 430px) {
+  .typed-out {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 50px;
+    font-size: 18px;
+    line-height: 21px;
+    background: none;
+  }
+  .main {
+    align-items: flex-start;
+    padding: 20px;
   }
 }
 
