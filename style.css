@@ -266,14 +266,16 @@ FOR BURGER MENU
     width: 8px !important;
   }
   h1 {
-    line-height: 35px;
+    line-height: 40px;
+    letter-spacing: 5px;
+    font-weight: 300;
     margin-left: 0px;
   }
   .main h2 {
     font-size: 3rem;
     background: -moz-linear-gradient(
       left,
-      rgb(0, 240, 255) 0%,
+      rgb(0, 255, 242) 0%,
       rgb(0, 240, 255) 62%,
       rgba(0, 240, 255, 0.7) 68%,
       rgba(0, 240, 255, 0) 100%
@@ -287,10 +289,10 @@ FOR BURGER MENU
     );
     background: linear-gradient(
       to right,
-      rgba(0, 240, 255, 0.6) 0%,
-      rgba(0, 240, 255, 0.5) 62%,
-      rgba(0, 240, 255, 0.5) 68%,
-      rgba(0, 240, 255, 0.3) 100%
+      rgba(0, 255, 242, 0.7) 0%,
+      rgba(0, 240, 255, 0.65) 62%,
+      rgba(0, 240, 255, 0.45) 68%,
+      rgba(0, 240, 255, 0.2) 100%
     );
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#007db9e8', GradientType=0 );
     background-clip: text;
@@ -301,7 +303,7 @@ FOR BURGER MENU
   .typed-out {
     font-family: Roboto;
     color: #ffffff;
-    font-weight: 100px;
+    font-weight: 150;
   }
 
   .main-text {
@@ -318,6 +320,7 @@ FOR BURGER MENU
 
   .char {
     font-size: 3.5rem;
+    line-height: ;
   }
   .menu {
     position: absolute;
