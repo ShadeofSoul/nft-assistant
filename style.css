@@ -1,8 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter&family=Roboto:wght@300;500&display=swap");
+@font-face {
+  font-family: "Gagalin";
+
+  src: url("./Gagalin-Regular.otf");
+
+  font-weight: normal;
+
+  font-style: normal;
+}
+
 * {
   font-family: "Inter", sans-serif;
-  font-family: "Roboto", sans-serif;
-  color: #ffffff;
+  font-family: "Gagalin", sans-serif;
   margin: 0;
   padding: 0;
 }
@@ -11,10 +20,10 @@ body {
   background: rgb(0, 240, 255);
   background: linear-gradient(
     0deg,
-    rgba(0, 240, 255, 1) 0%,
-    rgba(177, 70, 244, 1) 44%,
-    rgba(250, 0, 240, 0.7819502801120448) 65%,
-    rgba(44, 14, 117, 1) 100%
+    #05386b 0%,
+    #144266 44%,
+    #379683 65%,
+    #5cdb95 100%
   );
   background-repeat: no-repeat;
   /* height: fit-content; */
@@ -58,13 +67,8 @@ a:hover {
   color: #00f0ff;
 }
 .button {
-  background: rgb(235, 20, 132);
-  background: linear-gradient(
-    90deg,
-    rgba(235, 20, 132, 1) 0%,
-    rgba(247, 14, 238, 1) 50%,
-    rgba(250, 0, 240, 1) 100%
-  );
+  background: #05386b;
+  background: linear-gradient(90deg, #05386b 0%, #144266 50%, #379683 100%);
   width: 15%;
   padding: 8px;
   font-size: 1.3rem;
@@ -83,14 +87,20 @@ a:hover {
   display: flex;
 }
 
+.main-photo {
+  left: 0;
+  position: absolute;
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+}
+
 h1 {
   font-weight: 400;
   font-size: 5.3rem;
   line-height: 112px;
-  font-family: "Inter", sans-serif;
-  font-family: "Roboto", sans-serif;
-  color: #ffffff;
   margin-left: 30px;
+  color: #05386b;
 }
 
 #assistant {
@@ -251,7 +261,7 @@ FOR BURGER MENU
   width: 28px;
   height: 5px;
   margin: 2px;
-  background-color: #310f78;
+  background-color: #5cdb95;
   border-radius: 8px;
   transition: all 0.4s ease;
   -webkit-transition: all 0.4s ease;
@@ -308,7 +318,14 @@ FOR BURGER MENU
 
   .main-text {
     display: block;
+    margin: 27vh 0 10vh 0;
   }
+
+  .main-photo {
+    opacity: 0.4;
+    left: -30px;
+  }
+
   .section {
     height: 80vh;
     margin-bottom: 70px;
@@ -319,7 +336,7 @@ FOR BURGER MENU
   }
 
   .char {
-    font-size: 3.5rem;
+    font-size: 4rem;
   }
   .menu {
     position: absolute;
@@ -347,7 +364,7 @@ FOR BURGER MENU
     padding-bottom: 3vh;
   }
   .burger {
-    background-color: #ec1487;
+    background-color: #05386b;
     z-index: 2;
     position: absolute;
     display: block;
